@@ -11,3 +11,7 @@ php.exe -f extractor.php
 ping localhost -n 10 >nul 
 copy Datos\datos.csv X:\Dropbox\Promofarma\Datos\promofarma.csv /y
 exit
+
+
+
+To connect to Farmatic DB maybe you need a php driver like "php_pdo_sqlsrv"
