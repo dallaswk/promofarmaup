@@ -3,8 +3,8 @@
 
 <?php
 $archivo_csv = fopen('Datos\datos.csv', 'w');
-$serverName = "LAVSRV";
-$connectionInfo = array( "Database"=>"Farmatic", "UID"=>"sa", "PWD"=>"farmatic");
+$serverName = "SERVER";
+$connectionInfo = array( "Database"=>"database", "UID"=>"user", "PWD"=>"password");
 $conn = sqlsrv_connect( $serverName, $connectionInfo );
 
 
